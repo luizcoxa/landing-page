@@ -1,0 +1,64 @@
+.main-bg {
+  background-image: url('../img/tecnologia6.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.j1-bg {
+  background-image: url('../img/tecnologia8.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.j2-bg {
+  background-image: url('../img/tecnologia7.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.j3-bg {
+  background-image: url('../img/tecnologia9.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.j5-bg {
+  background-image: url('../img/tecnologia12.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.white-bg {
+  background-image: url('../img/');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+
+.main-content {
+  max-width: 120rem;
+  /* 120rem = 1200px */
+  margin: 0 auto;
+  /* padding: 3rem; */
+  padding: 10rem var(--gap);
+  /* correção */
+}
+
+.section {
+  min-height: 100vh;
+  /* parte 3/4 */
+  /* color: var(--primary-color); */
+}
+
+/* parte 3 */
+.menu-spacing {
+  height: 6.5rem;
+}
+
+body .full-width{
+  width: 100%;
+  flex: 1 1 100%;
+}
+.banner img{
+  width: 350px;
+}

@@ -1,0 +1,71 @@
+/* Adicionando estilos para o tema Fórmula 1 na página intro */
+.intro-content {
+    background-image: url('../img/formula1-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.intro-text-content h2 {
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+/* Para os links da introdução */
+.intro-text-content a {
+    color: var(--secondary-color);
+}
+
+/* Para destacar o texto importante */
+.intro-text-content strong {
+    color: var(--secondary-color);
+}
+
+/* Para o texto regular na introdução */
+.intro-text-content p {
+    color: var(--light-gray-color);
+}
+
+/* Modificando a fonte */
+.intro-text-content {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Ajustes no espaçamento */
+.intro-text-content p {
+    margin-bottom: 2rem;
+}
+
+/* Modificações no título principal */
+.intro-text-content h1 {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Modificações no subtítulo */
+.intro-text-content h2 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    font-weight: normal;
+}
+
+/* Modificações no botão de ação */
+.intro-text-content .btn-action {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1.5rem 4rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.intro-text-content .btn-action:hover {
+    background-color: var(--secondary-color);
+}
